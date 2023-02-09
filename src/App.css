@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+
+body{
+  background-color: #131415;
+  color: aliceblue;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a{
+  color: aquamarine;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main__container{
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+input{
+  padding: 1em;
+  font-size: 16px;
+  background-color: #2b3031;
+  border-radius: 5px;
+  border: none;
+  columns: #fff;
+  color: #fff;
+
+}
+
+.btn__primary{
+  background-color: aqua;
+  color: #131415;
+}
+
+.form__wrapper{
+  margin: 2em 0;
+}
+
+.advocate__list{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 4em;
+}
+
+.advocate__preview__wrapper{
+}
+
+.advocate__preview__header{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  gap: 1em;
 }
 
-.App-link {
-  color: #61dafb;
+.advocate__preview__image{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid aquamarine;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bio__preview{
+  display: block;
+  margin: 1em 0;
 }
